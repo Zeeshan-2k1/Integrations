@@ -10,4 +10,4 @@ const TestInetgrations = {
   getConfigs: getConfig,
 };
 
-export default TestInetgrations;
+module.exports = TestInetgrations;

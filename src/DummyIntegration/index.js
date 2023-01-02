@@ -1,4 +1,4 @@
-import DummyIntegrationEvent from './EventHandler';
+const { DummyIntegrationEvent } = require('./EventHandler');
 
 const DummyIntegrations = {
   name: 'Dummy Integrations',
@@ -8,4 +8,4 @@ const DummyIntegrations = {
   event: DummyIntegrationEvent,
 };
 
-export default DummyIntegrations;
+module.exports = DummyIntegrations;
