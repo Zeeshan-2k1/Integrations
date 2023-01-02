@@ -1,3 +1,5 @@
-export const DummyIntegrationEvent = (data) => {
-  console.log('Event Callback: ', data);
+const DummyIntegrationEvent = (data) => {
+  console.log('DummyIntegration Event Callback: ', data);
 };
+
+export default DummyIntegrationEvent;
