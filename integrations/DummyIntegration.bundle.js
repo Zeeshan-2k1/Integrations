@@ -1,1 +1,0 @@
-(()=>{"use strict";DummyIntegrations={name:"Dummy Integrations",description:"This is a dummy integration description for testing",category:["testing"],config:["account_id"],event:t=>{console.log("DummyIntegration Event Callback: ",t)}}})();
